@@ -1,0 +1,6 @@
+pyspark
+kafka-python
+psycopg2-binary
+dbt-core~=1.9.0
+dbt-postgres~=1.9.0
+mashumaro==3.17

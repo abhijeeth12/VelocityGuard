@@ -1,0 +1,25 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Spark / Data
+/tmp/
+spark_checkpoints_fraud/
+*.parquet
+*.json
+
+# dbt
+fraud_models/target/
+fraud_models/dbt_packages/
+fraud_models/logs/
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# Docker
+.env

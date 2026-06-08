@@ -1,0 +1,12 @@
+fraud_models:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      threads: 1
+      host: localhost
+      port: 5432
+      user: airflow
+      pass: airflow
+      dbname: fraud_db
+      schema: public
